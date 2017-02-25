@@ -1,6 +1,6 @@
 {
   "name": "node-icompressor",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Node.js script for image compression without loosing the original quality.",
   "bin": {
     "icompressor": "bin/icompressor.js"
