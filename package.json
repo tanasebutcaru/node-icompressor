@@ -1,0 +1,39 @@
+{
+  "name": "node-icompressor",
+  "version": "1.0.0",
+  "description": "A Node.js script for image compression without loosing the original quality.",
+  "bin": {
+    "icompressor": "bin/icompressor.js"
+  },
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "icompressor": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanaseButcaru/node-icompressor.git"
+  },
+  "keywords": [
+    "image-compressor",
+    "image-compresion",
+    "compression",
+    "image-processor",
+    "imagemin",
+    "optimize-image",
+    "minify",
+    "jpeg",
+    "png"
+  ],
+  "dependencies": {
+    "imagemin": "~5.2.2",
+    "imagemin-pngquant": "~5.0.0",
+    "imagemin-mozjpeg": "~6.0.0"
+  },
+  "author": "Tanase Butcaru <contact@butcaru.com> (https://butcaru.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TanaseButcaru/node-icompressor/issues"
+  },
+  "homepage": "https://github.com/TanaseButcaru/node-icompressor#readme"
+}
